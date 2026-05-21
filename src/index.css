@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-pink: #FF007F;
+  --color-brand-green: #39FF14;
+  --color-brand-dark-bg: #050505;
+  --color-brand-card: #121212;
+  
+  --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@layer utilities {
+  .glow-green {
+    box-shadow: 0 0 15px rgba(57, 255, 20, 0.2);
+  }
+  .glow-pink {
+    box-shadow: 0 0 15px rgba(255, 0, 127, 0.2);
+  }
+}
+
+body {
+  background-color: #050505;
+  color: #ffffff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
